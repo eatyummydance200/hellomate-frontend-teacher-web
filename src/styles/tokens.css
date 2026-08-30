@@ -1,0 +1,67 @@
+:root {
+  /* 색 8개 — 이게 전부입니다 */
+  --primary: #49c9a7;
+  --primary-dark: #00382c;
+  --text: #101413;
+  --text-muted: #6d7a74;
+  --bg: #ffffff;
+  --bg-muted: #f2f5f4;
+  --border: #eaeeec;
+  --danger: #f30707;
+
+  /* 간격 5개 */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+  /* 모서리 3개 */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-full: 999px;
+
+  /* 레이아웃 상수 (스케일이 아니라 고정값) */
+  --sidebar-w: 240px;
+  --topbar-h: 72px;
+  --btn-md: 44px;
+  --btn-sm: 36px;
+  --input-h: 46px;
+  --control-h: 42px;
+
+  /* 텍스트 스타일 8개 (Figma web/*) */
+  --font-sans: "Pretendard Variable", sans-serif;
+
+  --text-title-size: 20px;
+  --text-title-weight: 700;
+  --text-title-leading: 28px;
+
+  --text-heading-size: 16px;
+  --text-heading-weight: 700;
+  --text-heading-leading: 22px;
+
+  --text-body-size: 14px;
+  --text-body-weight: 500;
+  --text-body-leading: 20px;
+
+  --text-body-strong-size: 14px;
+  --text-body-strong-weight: 700;
+  --text-body-strong-leading: 20px;
+
+  --text-label-size: 12px;
+  --text-label-weight: 700;
+  --text-label-leading: 16px;
+
+  --text-caption-size: 12px;
+  --text-caption-weight: 500;
+  --text-caption-leading: 16px;
+
+  --text-micro-size: 10px;
+  --text-micro-weight: 500;
+  --text-micro-leading: 14px;
+
+  --text-numeric-size: 28px;
+  --text-numeric-weight: 600;
+  --text-numeric-leading: 34px;
+  --text-numeric-tracking: -0.015em;
+}
