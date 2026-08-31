@@ -1,0 +1,13 @@
+.icon {
+  display: inline-flex;
+  flex-shrink: 0;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  color: inherit;
+}
+
+.icon > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
