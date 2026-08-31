@@ -1,0 +1,63 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding-inline: var(--space-4);
+  border: 1px solid transparent;
+  font-family: var(--font-sans);
+  font-size: var(--text-body-strong-size);
+  font-weight: var(--text-body-strong-weight);
+  line-height: var(--text-body-strong-leading);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Size */
+.md {
+  height: var(--btn-md);
+  border-radius: var(--radius-md);
+}
+
+.sm {
+  height: var(--btn-sm);
+  border-radius: var(--radius-sm);
+}
+
+/* Variant */
+.primary {
+  background: var(--primary);
+  color: var(--primary-dark);
+}
+
+.secondary {
+  background: var(--bg-muted);
+  color: var(--text);
+}
+
+.line {
+  background: var(--bg);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.danger {
+  background: var(--danger);
+  color: var(--bg);
+}
+
+/* Leading icon — caller sizes its own glyph (design: 18px md / 16px sm) */
+.icon {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.icon > svg {
+  display: block;
+}
