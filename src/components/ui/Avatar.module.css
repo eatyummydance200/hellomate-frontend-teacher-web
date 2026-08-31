@@ -1,0 +1,33 @@
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  color: var(--on-accent);
+  font-family: var(--font-sans);
+  font-weight: var(--text-body-strong-weight);
+  user-select: none;
+}
+
+.s28 {
+  width: 28px;
+  height: 28px;
+  font-size: var(--text-label-size);
+  line-height: var(--text-label-leading);
+}
+
+.s36 {
+  width: 36px;
+  height: 36px;
+  font-size: var(--text-body-strong-size);
+  line-height: var(--text-body-strong-leading);
+}
+
+.s44 {
+  width: 44px;
+  height: 44px;
+  font-size: var(--text-heading-size);
+  line-height: var(--text-heading-leading);
+}

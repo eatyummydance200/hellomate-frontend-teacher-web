@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  gap: var(--space-1);
+  height: 44px;
+  padding: var(--space-1);
+  border-radius: var(--radius-md);
+  background: var(--bg-muted);
+}
+
+.tab {
+  flex: 1;
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-muted);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.active {
+  background: var(--bg);
+  border-color: var(--border);
+  color: var(--text);
+}

@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  height: 42px;
+  padding-inline: var(--space-3);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: var(--bg-muted);
+}
+
+.label {
+  flex: 1;
+  min-width: 0;
+}
+
+.active,
+.active:hover {
+  background: var(--primary);
+  color: var(--primary-dark);
+}

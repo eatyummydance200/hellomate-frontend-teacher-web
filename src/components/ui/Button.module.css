@@ -49,7 +49,7 @@
 
 .danger {
   background: var(--danger);
-  color: var(--bg);
+  color: var(--on-accent);
 }
 
 /* Leading icon — caller sizes its own glyph (design: 18px md / 16px sm) */

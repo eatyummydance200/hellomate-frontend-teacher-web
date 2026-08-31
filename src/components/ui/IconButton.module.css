@@ -1,0 +1,26 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--btn-sm);
+  height: var(--btn-sm);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--text);
+  transition: opacity 0.15s ease;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.line {
+  background: var(--bg);
+  border-color: var(--border);
+}
+
+.tint {
+  background: var(--bg-muted);
+}
