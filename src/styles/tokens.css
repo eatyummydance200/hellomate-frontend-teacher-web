@@ -8,6 +8,8 @@
   --bg-muted: #f2f5f4;
   --border: #eaeeec;
   --danger: #f30707;
+  /* primary/danger 면 위에 올라가는 텍스트·아이콘 */
+  --on-accent: #ffffff;
 
   /* 간격 5개 */
   --space-1: 4px;
@@ -28,6 +30,7 @@
   --btn-sm: 36px;
   --input-h: 46px;
   --control-h: 42px;
+  --icon-size: 20px;
 
   /* 텍스트 스타일 8개 (Figma web/*) */
   --font-sans: "Pretendard Variable", sans-serif;

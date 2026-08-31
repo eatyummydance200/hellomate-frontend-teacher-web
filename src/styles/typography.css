@@ -1,0 +1,60 @@
+/* 텍스트 스타일 유틸 — 값은 tokens.css의 --text-* 토큰만 사용 */
+.t-title,
+.t-heading,
+.t-body,
+.t-body-strong,
+.t-label,
+.t-caption,
+.t-micro,
+.t-numeric {
+  font-family: var(--font-sans);
+}
+
+.t-title {
+  font-size: var(--text-title-size);
+  font-weight: var(--text-title-weight);
+  line-height: var(--text-title-leading);
+}
+
+.t-heading {
+  font-size: var(--text-heading-size);
+  font-weight: var(--text-heading-weight);
+  line-height: var(--text-heading-leading);
+}
+
+.t-body {
+  font-size: var(--text-body-size);
+  font-weight: var(--text-body-weight);
+  line-height: var(--text-body-leading);
+}
+
+.t-body-strong {
+  font-size: var(--text-body-strong-size);
+  font-weight: var(--text-body-strong-weight);
+  line-height: var(--text-body-strong-leading);
+}
+
+.t-label {
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+  line-height: var(--text-label-leading);
+}
+
+.t-caption {
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: var(--text-caption-leading);
+}
+
+.t-micro {
+  font-size: var(--text-micro-size);
+  font-weight: var(--text-micro-weight);
+  line-height: var(--text-micro-leading);
+}
+
+.t-numeric {
+  font-size: var(--text-numeric-size);
+  font-weight: var(--text-numeric-weight);
+  line-height: var(--text-numeric-leading);
+  letter-spacing: var(--text-numeric-tracking);
+}

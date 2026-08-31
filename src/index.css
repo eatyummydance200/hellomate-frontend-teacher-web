@@ -1,5 +1,6 @@
 @import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 @import './styles/tokens.css';
+@import './styles/typography.css';
 
 body {
   font-family: var(--font-sans);
