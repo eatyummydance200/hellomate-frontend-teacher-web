@@ -2,6 +2,12 @@
 @import './styles/tokens.css';
 @import './styles/typography.css';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: var(--font-sans);
+  color: var(--text);
 }

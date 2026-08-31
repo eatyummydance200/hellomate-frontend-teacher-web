@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+}
+
+.toolbar {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.search {
+  flex: 1;
+}
+
+.count {
+  color: var(--text-muted);
+  padding-inline: var(--space-1);
+}
+
+.count strong {
+  color: var(--text);
+}
+
+.list {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+/* first row's top border coincides with the card border */
+.list > *:first-child {
+  border-top: none;
+}
