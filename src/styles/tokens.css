@@ -8,6 +8,8 @@
   --bg-muted: #f2f5f4;
   --border: #eaeeec;
   --danger: #f30707;
+  /* 상대방 말풍선 배경 — 채팅창(--bg-muted)과 구분되도록 */
+  --bubble-other-bg: #ffffff;
   /* primary/danger 면 위에 올라가는 텍스트·아이콘 */
   --on-accent: #ffffff;
 

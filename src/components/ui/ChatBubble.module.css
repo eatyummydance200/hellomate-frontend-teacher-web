@@ -21,8 +21,9 @@
 }
 
 .other .bubble {
-  background: var(--bg-muted);
+  background: var(--bubble-other-bg);
   color: var(--text);
+  border: 1px solid var(--border);
   border-bottom-left-radius: 4px;
 }
 
